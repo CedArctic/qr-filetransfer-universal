@@ -20,7 +20,7 @@ Windows:
 Linux / macOS:
 ```bash
 # clone the repo
-> git clone https://github.com/sdushantha/qr-filetransfer.git
+> git clone https://github.com/CedArctic/qr-filetransfer-universal.git
 
 # install the requirements
 > pip3 install -r requirements.txt
