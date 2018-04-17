@@ -85,7 +85,7 @@ def start_server(fpath):
     httpd = socketserver.TCPServer(("", int(PORT)), handler)
 
     # This is the url to be encoded into the QR code
-    address = "http://" + str(LOCAL_IP) + ":" + str(PORT) + "/" + fname
+    address = "http://" + str(LOCAL_IP) + ":" + str(PORT) + "/" + os.path.basename(fname)
 
     print("\n")
     print("Server Address: " + address)     # Print server address and file name
