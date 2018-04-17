@@ -54,8 +54,9 @@ python3 qr-filetransfer.py -f /path/to/directory/
 ```
 
 ## Credits
-Based off sdushantha's [qr-diletransfer](https://github.com/sdushantha/qr-filetransfer)
-Inspired by the Go project [qr-filetransfer](https://github.com/claudiodangelis/qr-filetransfer)
+* Based off sdushantha's [qr-diletransfer](https://github.com/sdushantha/qr-filetransfer)
+* Inspired by the Go project [qr-filetransfer](https://github.com/claudiodangelis/qr-filetransfer)
+
 
 ## License
 MIT License
