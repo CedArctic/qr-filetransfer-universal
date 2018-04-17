@@ -1,5 +1,5 @@
 # qr-filetransfer-universal
-📁 Send files from your PC to your Phone through WiFi with a QR code
+📁 Send files from your Computer to your Phone through WiFi with a QR code
 
 ## About
 This is a handy little python 3 program that allows you to send files or folders through your Local Area Network (inside your WiFi) by simply scanning a QR Code through your phone! The code is based off sdushantha's amazing work with some added stuff that I found useful plus compatibility with Windows aside from macOS and Linux.
@@ -54,7 +54,7 @@ python3 qr-filetransfer.py -f /path/to/directory/
 ```
 
 ## Credits
-* Based off sdushantha's [qr-diletransfer](https://github.com/sdushantha/qr-filetransfer)
+* Based off sdushantha's [qr-filetransfer](https://github.com/sdushantha/qr-filetransfer)
 * Inspired by the Go project [qr-filetransfer](https://github.com/claudiodangelis/qr-filetransfer)
 
 
