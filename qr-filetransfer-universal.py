@@ -89,7 +89,7 @@ def start_server(fpath):
 
     print("\n")
     print("Server Address: " + address)     # Print server address and file name
-    print("File name: " + fname)
+    print("File name: " + os.path.basename(fname))
     print("\n")
     print("Scan the QR to start downloading. To quit just hit Ctrl+C.\nMake sure that your smartphone is connected to the same WiFi network as this computer.")
     print_qr_code(address, os.path.basename(fname))
