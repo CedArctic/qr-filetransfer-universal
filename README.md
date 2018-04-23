@@ -31,7 +31,7 @@ Linux / macOS:
 Just double click the .py file and drag and drop inside whatever you want to send! Alternatively you can also use the program this way:
 
 ```
-usage: qr-filetransfer.py [-h] -f FILE
+usage: qr-filetransfer-universal.py [-h] -f FILE
 ```
 
 **Note:** Both devices needs to be connected to the same network
@@ -44,13 +44,13 @@ To exit the program, just press ```CTRL+C```. **Dont** press ```CTRL+Z```.
 
 Transfer a single file
 ```bash
-python3 qr-filetransfer.py -f /path/to/file.txt
+python3 qr-filetransfer-universal.py -f /path/to/file.txt
 ```
 
 
 Transfer a full directory. **Note:** the directory gets zipped before being transferred
 ```bash
-python3 qr-filetransfer.py -f /path/to/directory/
+python3 qr-filetransfer-universal.py -f /path/to/directory/
 ```
 
 ## Credits
