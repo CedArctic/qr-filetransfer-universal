@@ -10,6 +10,8 @@ This is a handy little python 3 program that allows you to send files or folders
 
 Windows:
 
+Just download and run the latest executable from the releases page above. Alternatively you can do it with the Python script:
+
 1. Install Python 3 if you don't have it.
 2. Open powershell and execute:
     pip install pyqrcode
@@ -28,10 +30,10 @@ Linux / macOS:
 
 
 ## Usage
-Just double click the .py file and drag and drop inside whatever you want to send! Alternatively you can also use the program this way:
+Just double click the .py file and drag and drop inside whatever you want to send! Alternatively you can also use the program this way through the command line:
 
 ```
-usage: qr-filetransfer-universal.py [-h] -f FILE
+qr-filetransfer-universal.py [-h] -f FILE
 ```
 
 **Note:** Both devices needs to be connected to the same network
